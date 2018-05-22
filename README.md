@@ -1,25 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+J ai ecrit les 3 fonctions my_max , vowel_count et reverse en Javasript directement dans le HTML.
 
-Things you may want to cover:
+lancez le serveur avec la commande Rails s et testez les grave aux boutons correspondant.
 
-* Ruby version
+J ai affiché les resultats par popup et aussi en console log .
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# JavascriptChauffe
+ 

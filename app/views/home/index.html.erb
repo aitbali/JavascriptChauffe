@@ -1,0 +1,77 @@
+<html>
+
+
+    <title>Test jscript</title>
+
+  
+ 
+    <body>
+    <button onclick ="my_max()"  ><script>
+    	function my_max(array){
+		array=[], max = -Infinity ;
+		var a = prompt("nombre d elements"); 
+		while (a > 0) {
+			var b = prompt("chiffre" + a);
+
+			array[a - 1] = b ;
+			a--;
+		}
+		alert("Our array is [" + array + "]");
+    	result = Math.max(...array);
+
+		alert("The greater is : " + result);
+		}
+	</script>Max Array</button>
+
+
+    <button onclick ="voyel_count()" ><script>
+    	function voyel_count(){
+    		
+			array=["a","e","i","o","u","A","E","I","O","U"] ;
+			var text = prompt("tapes ton texte !");
+			console.log(text);
+			var letters = text.split(/\W+/);
+			console.log(letters);
+			var i = letters.join("");
+			console.log(i);
+			var letter = i.split("");
+			console.log(letter);
+			var i = letter.length ;
+			var a = letter.length ; 
+			console.log(i);
+			while (i > 0) {
+				var b = array.length
+				while (b > 0){
+					if (letter[i-1] === array[b-1]) {
+    			 	a--;
+    			 	}
+    			 b--;
+    			}
+    			i--;				
+			}
+			console.log(letter.length - a);
+			alert("dans ''" + text + "'' on a " + (letter.length - a) + "  voyelles! ")
+		}
+	
+	</script>Voyel count</button>
+
+	<button onclick ="reverse()" ><script>
+    	function reverse(){
+    		
+			var text = prompt("tapes ton texte !");
+			console.log(text);
+			var letters = text.split(/\W+/);
+			console.log(letters);
+			var i = letters.join("");
+			console.log(i);
+			var letter = i.split("").reverse().join("");
+			console.log(letter);
+			alert("et voilouuuu!         " + letter);
+		}
+	
+	</script>Reverse</button>
+
+
+   </body>
+ 
+</html>
